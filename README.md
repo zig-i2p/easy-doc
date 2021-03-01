@@ -27,7 +27,7 @@ yarn build
 ## Deployment
 
 ```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+GIT_USER=zig-i2p USE_SSH=true yarn deploy
 ```
 
 Если вы используете страницы GitHub для хостинга, эта команда - удобный способ создать веб-сайт и перейти на `gh-pages` ответвляться.
