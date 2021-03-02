@@ -12,8 +12,8 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Docusaurus был разработан с нуля, чтобы его можно было легко установить и
+        используется для быстрого запуска и запуска вашего сайта.
       </>
     ),
   },
@@ -22,8 +22,8 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Docusaurus позволяет вам сосредоточиться на ваших документах, и мы&apos;буду делать работу по дому.Идти
+        вперед и переместите свои документы в <code>docs</code> каталог.
       </>
     ),
   },
@@ -32,8 +32,8 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       Расширьте или настройте макет своего веб-сайта, повторно используя React. Докзавр может
+       быть расширенным при повторном использовании одного и того же верхнего и нижнего колонтитула.
       </>
     ),
   },
@@ -60,7 +60,7 @@ function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Описание войдет в метатег в <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
